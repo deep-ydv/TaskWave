@@ -234,7 +234,9 @@ const TaskWaveLanding = () => {
       <NavBar/>
 
       {/* Hero Section */}
-      <section className="py-20 md:py-32 bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50">
+      {/* <section className="py-20 md:py-32 bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50"> */}
+      <section className="py-20 md:py-32 bg-[#F8F7FE]">
+
         <div className="container px-4 md:px-6 max-w-7xl mx-auto">
           <div className="grid gap-12 lg:grid-cols-2 lg:gap-16 items-center">
             <div className="space-y-8">
@@ -284,7 +286,7 @@ const TaskWaveLanding = () => {
               </div>
             </div>
 
-            <div className="relative">
+            {/* <div className="relative">
               <div className="relative bg-gradient-to-br from-blue-100 to-purple-100 rounded-2xl p-8 shadow-2xl">
                 <div className="text-center space-y-4">
                   <div className="flex items-center justify-center space-x-2">
@@ -315,6 +317,9 @@ const TaskWaveLanding = () => {
                   </div>
                 </div>
               </div>
+            </div> */}
+            <div className="hidden lg:block">
+              <img src="/heropage.png" alt="image" />
             </div>
           </div>
         </div>
