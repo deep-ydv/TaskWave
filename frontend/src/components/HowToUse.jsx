@@ -2,14 +2,14 @@ import React from 'react';
 
 const HowToUse = () => {
   return (
-    <div className="w-[80%] h-[600px]   bg-gradient-to-br from-purple-100 to-blue-100 flex justify-center ">
+    <div className="w-[80%]    bg-gradient-to-br from-purple-100 to-blue-100 flex justify-center ">
       <div className="max-w-3xl w-full bg-white  shadow-2xl p-8 ">
-        <h1 className="text-3xl font-bold text-center text-purple-800">🔧 How to Use Work Wave</h1>
+        <h1 className="text-3xl font-bold text-center text-purple-800">🔧 How to Use Task Wave</h1>
 
         <section className="">
           <h2 className="text-xl font-semibold text-gray-700">🚀 Getting Started</h2>
           <p className="text-gray-600">
-            Welcome to <span className="font-semibold text-purple-700">Work Wave</span>! Here's how you can get started with existing or new accounts.
+            Welcome to <span className="font-semibold text-purple-700">Task Wave</span>! Here's how you can get started with existing or new accounts.
           </p>
         </section>
 
@@ -24,7 +24,7 @@ const HowToUse = () => {
         <section className="space-y-3">
           <h2 className="text-xl font-semibold text-gray-700">👨‍💻 Existing User Login</h2>
           <ul className="list-disc list-inside text-gray-600">
-            <li>Email: <span className="font-mono text-purple-700">user@email.com</span></li>
+            <li>Email: <span className="font-mono text-purple-700">user1@email.com</span></li>
             <li>Password: <span className="font-mono text-purple-700">12345678</span></li>
           </ul>
         </section>

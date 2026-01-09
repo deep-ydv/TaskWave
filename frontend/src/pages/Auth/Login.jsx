@@ -114,7 +114,7 @@ setHowToUse(prev=>!prev)
           <button className='bg-blue-600 text-white py-1 text-lg rounded-sm mt-4 px-4 w-[50%] min-w-[300px]' onClick={(e)=>handleLogin(e)}>LOGIN</button>
           <p className='text-white'>Don't have an account?<Link to="/signup" className='text-blue-400 hover:text-blue-700'>Signup</Link></p>
         </form>
-        {/* <p className='text-red-300 cursor-pointer hover:text-red-600' onClick={handleHowToUse}>*How to use</p> */}
+        <p className='text-red-300 cursor-pointer hover:text-red-600' onClick={handleHowToUse}>*How to use</p>
        
       </div>
       </div>
